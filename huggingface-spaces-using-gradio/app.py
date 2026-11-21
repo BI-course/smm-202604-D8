@@ -2,16 +2,9 @@ import gradio as gr
 import joblib
 import numpy as np
 import pandas as pd
-import spaces
+import os
 
-# -----------------------------------------------------------------------
-# Hugging Face's free tier now provisions new Gradio Spaces on ZeroGPU
-# hardware only (see the note in Step 2 below). None of this app's four
-# models needs a GPU -- every prediction below runs on plain scikit-learn
-# arrays -- but some free-tier Spaces fail to start reliably unless at
-# least one function is decorated with @spaces.GPU. This function does
-# nothing GPU-related; it exists only to satisfy that platform check.
-# Calling it once, here, registers it before Gradio launches below.
+
 @spaces.GPU
 def _warm_zerogpu():
     return None
@@ -207,6 +200,7 @@ with gr.Blocks(title="BBT 4206 Model Validation Demos") as demo:
                 gr.Number(label="Annual Income (k$)", value=45),
                 gr.Number(label="Spending Score (1-100)", value=72),
             ],
+
             outputs=gr.Textbox(label="Prediction"),
         )
 
@@ -220,5 +214,9 @@ with gr.Blocks(title="BBT 4206 Model Validation Demos") as demo:
             outputs=gr.Textbox(label="Recommendations"),
         )
 
+
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860))
+    )
