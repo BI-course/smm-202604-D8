@@ -17,7 +17,7 @@ def load_artifacts():
     # classification_pipeline = joblib.load("svc_classifier_for_sme_credit_risk.joblib")
     # clustering_artifact = joblib.load("kmeans_mall_customer_segmentation.joblib")
     # arm_artifact = joblib.load("apriori_recommendation_rules.joblib")
-    MODEL_DIR = "./model"
+    MODEL_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "model")
 
     regression_pipeline = joblib.load(
         os.path.join(MODEL_DIR, "lasso_regressor_for_sme_revenue.joblib")
