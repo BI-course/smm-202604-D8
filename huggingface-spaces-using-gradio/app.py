@@ -5,11 +5,7 @@ import pandas as pd
 import os
 
 
-@spaces.GPU
-def _warm_zerogpu():
-    return None
 
-_warm_zerogpu()
 
 # -----------------------------------------------------------------------
 # Load all four persisted artifacts ONCE, at import time -- the same
