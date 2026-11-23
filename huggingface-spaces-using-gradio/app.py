@@ -27,11 +27,11 @@ sku_lookup = arm_artifact["sku_lookup"]
 # -----------------------------------------------------------------------
 # 1. Regression -- predict monthly revenue (KES) for an SME
 # -----------------------------------------------------------------------
-def predict_revenue(sector, county, quarter, business_age_years, num_employees,
+ predict_revenue(sector, county, quarter, business_age_years, num_employees,
                      owner_education_level, monthly_marketing_spend_kes,
                      avg_daily_foot_traffic, online_presence_score,
                      loan_amount_kes, interest_rate_pct, inflation_rate_pct,
-                     competitor_density, customer_satisfaction_score):
+                     codefmpetitor_density, customer_satisfaction_score):
     payload = {
         "sector": sector, "county": county, "quarter": quarter,
         "business_age_years": business_age_years, "num_employees": num_employees,
