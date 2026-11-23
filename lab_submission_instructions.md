@@ -67,6 +67,7 @@ At minimum, the video must show, in one continuous walkthrough:
 Note that you are required to submit the link to the video and NOT the video itself. The video should NOT be uploaded to your repository—that would be a misuse of GitHub.
 
 **Link to the video:**
+https://www.loom.com/share/a7c10a38e3354f00b8fb294eeff4505e
 
 ## Public URLs
 
@@ -74,9 +75,9 @@ Fill in only the rows that apply to your chosen difficulty level (see Part C bel
 
 | **Deployment target**                             | **URL** |
 |:--------------------------------------------------|:--------|
-| Render (the full `api.py`, all endpoints)         |         |
+| Render (the full `api.py`, all endpoints)         |   https://smm-202604-d8.onrender.com      |
 | Hugging Face Space (Gradio, one tab per model)    |         |
-| Streamlit Community Cloud app (one tab per model) |         |
+| Streamlit Community Cloud app (one tab per model) |    https://smm-202604-d8-gbhtxxhce5auwicsxwve2t.streamlit.app/     |
 
 ---
 
