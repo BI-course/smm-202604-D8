@@ -8,24 +8,28 @@
 
 | **Details**                                                                                                                           | **Comment** |
 |:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
-| **Student ID**                                                                                                                        |             |
-| **Name**                                                                                                                              |             |
-| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
+| **Student ID**                                                                                                                        |   137251          |
+| **Name**                                                                                                                              |  Finlay Bett           |
+| **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** | I contributed to implementing the SME revenue prediction endpoint, improving the HTML interfaces for the four machine learning models, and preparing the Streamlit and Gradio applications for deployment. I also worked on troubleshooting deployment issues on Render.
+
+Through this lab, I learned how to serve trained machine learning models using a Flask API, integrate the API with frontend applications, deploy models to different platforms, and troubleshoot errors that occur during deployment.
+
+**Contribution branch:** https://github.com/BI-course/smm-202604-D8/tree/feature/finlay-contribution            |
 
 **Member 2:**
 
 | **Details**                                                                                                                           | **Comment** |
 |:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
-| **Student ID**                                                                                                                        |             |
-| **Name**                                                                                                                              |             |
+| **Student ID**                                                                                                                        |    166389         |
+| **Name**                                                                                                                              |     Jerry Mwatika        |
 | **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
 **Member 3:**
 
 | **Details**                                                                                                                           | **Comment** |
 |:--------------------------------------------------------------------------------------------------------------------------------------|:------------|
-| **Student ID**                                                                                                                        |             |
-| **Name**                                                                                                                              |             |
+| **Student ID**                                                                                                                        |  169177           |
+| **Name**                                                                                                                              |  Russel Jamie           |
 | **What part of the lab did you personally<br/>contribute to (provide a link to the<br/>branch(es)), and what did you learn from it?** |             |
 
 **Member 4:**
